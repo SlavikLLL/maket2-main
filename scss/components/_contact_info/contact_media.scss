@@ -222,6 +222,8 @@
       .bottom-wrapper {
         padding-top: 70px;
         display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
         .left-wrapper-contact {
           width: 50%;
           .name {
@@ -268,8 +270,9 @@
         }
         .right-wrapper-info {
           width: 50%;
-          margin-left: 130px;
-          padding-left: 30px;
+          margin-left:0;
+          margin-bottom: 10px;
+          
     
           border: 1px solid;
           background-color: #2d2d2d;
